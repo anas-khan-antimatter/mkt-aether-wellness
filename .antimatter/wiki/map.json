@@ -1,0 +1,24 @@
+{
+  "root": "/tmp/am-ws/c-1790732962288-ubgez",
+  "name": "c-1790732962288-ubgez",
+  "generatedAt": "2026-09-30T14:37:15.891Z",
+  "fileCount": 2,
+  "dirCount": 1,
+  "languages": {
+    "Markdown": 1
+  },
+  "keyFiles": [
+    "README.md"
+  ],
+  "directories": [
+    {
+      "dir": "(root)",
+      "fileCount": 2,
+      "files": [
+        ".gitignore",
+        "README.md"
+      ],
+      "symbols": []
+    }
+  ]
+}
