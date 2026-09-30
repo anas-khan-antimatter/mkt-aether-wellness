@@ -1,14 +1,14 @@
 {
-  "name": "c-1790732962288-ubgez",
+  "name": "aether-wellness",
   "version": "1.0.0",
   "description": "Marketing — Aether Wellness",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
