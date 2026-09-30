@@ -1,20 +1,35 @@
 {
-  "root": "/tmp/am-ws/ch_muna4bm0_1",
-  "name": "ch_muna4bm0_1",
-  "generatedAt": "2026-09-29T23:00:10.814Z",
-  "fileCount": 1,
-  "dirCount": 1,
+  "root": "/tmp/am-ws/c-1790732962288-ubgez",
+  "name": "c-1790732962288-ubgez",
+  "generatedAt": "2026-09-30T16:42:52.198Z",
+  "fileCount": 8,
+  "dirCount": 2,
   "languages": {
-    "Markdown": 1
+    "Markdown": 6,
+    "JSON": 1
   },
   "keyFiles": [
     "README.md"
   ],
   "directories": [
     {
-      "dir": "(root)",
-      "fileCount": 1,
+      "dir": ".antimatter/wiki",
+      "fileCount": 6,
       "files": [
+        "index.md",
+        "log.md",
+        "map.json",
+        "map.md",
+        "overview.md",
+        "schema.md"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "(root)",
+      "fileCount": 2,
+      "files": [
+        ".gitignore",
         "README.md"
       ],
       "symbols": []
