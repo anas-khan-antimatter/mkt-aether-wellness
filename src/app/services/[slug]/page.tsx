@@ -8,9 +8,12 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
   }
 
   // Sibling nav
-  const idx = services.findIndex((s: { slug: string }) => s.slug === params.slug);
+  let idx = -1;
+  for (let i = 0; i < services.length; i++) {
+    if (services[i].slug === params.slug) { idx = i; break; }
+  }
   const prev = idx > 0 ? services[idx - 1] : null;
-  const next = idx < services.length - 1 ? services[idx + 1] : null;
+  const next = idx >= 0 && idx < services.length - 1 ? services[idx + 1] : null;
 
   return (
     <>
