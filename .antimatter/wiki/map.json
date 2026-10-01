@@ -1,14 +1,14 @@
 {
   "root": "/tmp/am-ws/c-1790732962288-ubgez",
   "name": "c-1790732962288-ubgez",
-  "generatedAt": "2026-10-01T14:41:18.996Z",
-  "fileCount": 43,
-  "dirCount": 7,
+  "generatedAt": "2026-10-01T15:08:59.710Z",
+  "fileCount": 53,
+  "dirCount": 16,
   "languages": {
+    "JSON": 6,
     "Markdown": 8,
-    "JSON": 5,
     "JavaScript": 2,
-    "TypeScript": 20,
+    "TypeScript": 29,
     "CSS": 1
   },
   "keyFiles": [
@@ -17,6 +17,14 @@
     "tsconfig.json"
   ],
   "directories": [
+    {
+      "dir": ".antimatter/lanes",
+      "fileCount": 1,
+      "files": [
+        "ship.json"
+      ],
+      "symbols": []
+    },
     {
       "dir": ".antimatter/wiki",
       "fileCount": 6,
@@ -77,6 +85,85 @@
       ]
     },
     {
+      "dir": "src/app/api/book",
+      "fileCount": 1,
+      "files": [
+        "route.ts"
+      ],
+      "symbols": [
+        {
+          "name": "POST",
+          "kind": "fn"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/api/prompt",
+      "fileCount": 1,
+      "files": [
+        "route.ts"
+      ],
+      "symbols": [
+        {
+          "name": "GET",
+          "kind": "fn"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/api/suggest",
+      "fileCount": 1,
+      "files": [
+        "route.ts"
+      ],
+      "symbols": [
+        {
+          "name": "POST",
+          "kind": "fn"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/book",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/check-in",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/services",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/services/[slug]",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/team",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
       "dir": "src/components",
       "fileCount": 2,
       "files": [
@@ -107,8 +194,9 @@
     },
     {
       "dir": "src/lib",
-      "fileCount": 2,
+      "fileCount": 3,
       "files": [
+        "data.ts",
         "types.ts",
         "utils.ts"
       ],
@@ -120,6 +208,30 @@
         {
           "name": "Practitioner",
           "kind": "interface"
+        },
+        {
+          "name": "SymptomModality",
+          "kind": "interface"
+        },
+        {
+          "name": "services",
+          "kind": "const"
+        },
+        {
+          "name": "practitioners",
+          "kind": "const"
+        },
+        {
+          "name": "symptomData",
+          "kind": "const"
+        },
+        {
+          "name": "timeSlots",
+          "kind": "const"
+        },
+        {
+          "name": "journalPrompts",
+          "kind": "const"
         },
         {
           "name": "BlogPost",
