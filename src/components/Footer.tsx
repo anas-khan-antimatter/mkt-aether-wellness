@@ -21,6 +21,7 @@ export default function Footer() {
               <Link href="/services" className="text-sm text-[oklch(0.45_0.025_140)] transition-colors hover:text-[oklch(0.25_0.02_140)]">Services</Link>
               <Link href="/team" className="text-sm text-[oklch(0.45_0.025_140)] transition-colors hover:text-[oklch(0.25_0.02_140)]">Practitioners</Link>
               <Link href="/check-in" className="text-sm text-[oklch(0.45_0.025_140)] transition-colors hover:text-[oklch(0.25_0.02_140)]">Symptom Check-In</Link>
+              <Link href="/portal" className="text-sm text-[oklch(0.45_0.025_140)] transition-colors hover:text-[oklch(0.25_0.02_140)]">Member Portal</Link>
               <Link href="/book" className="text-sm text-[oklch(0.45_0.025_140)] transition-colors hover:text-[oklch(0.25_0.02_140)]">Book an Appointment</Link>
             </nav>
           </div>
