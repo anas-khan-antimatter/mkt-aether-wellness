@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "runsOn": "ubuntu-latest",
+  "setup": [
+    "npm ci"
+  ],
+  "build": [
+    "npm run build"
+  ],
+  "probes": [
+    {
+      "kind": "browser",
+      "url": "/book"
+    },
+    {
+      "kind": "browser",
+      "url": "/check-in"
+    },
+    {
+      "kind": "browser",
+      "url": "/services"
+    },
+    {
+      "kind": "browser",
+      "url": "/team"
+    },
+    {
+      "kind": "http",
+      "url": "/api/book"
+    },
+    {
+      "kind": "http",
+      "url": "/api/prompt"
+    },
+    {
+      "kind": "http",
+      "url": "/api/suggest"
+    }
+  ]
+}
