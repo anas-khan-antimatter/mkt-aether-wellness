@@ -25,6 +25,10 @@
       "url": "/team"
     },
     {
+      "kind": "browser",
+      "url": "/portal"
+    },
+    {
       "kind": "http",
       "url": "/api/book"
     },
@@ -35,6 +39,10 @@
     {
       "kind": "http",
       "url": "/api/suggest"
+    },
+    {
+      "kind": "http",
+      "url": "/api/portal/bookings"
     }
   ]
 }
