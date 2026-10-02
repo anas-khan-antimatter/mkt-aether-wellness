@@ -1,6 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import { symptomData } from "@/lib/data";
 
+export async function GET() {
+  return NextResponse.json({
+    endpoint: "/api/suggest",
+    method: "POST",
+    description: "Get wellness modality suggestions based on symptoms",
+    parameters: {
+      symptoms: "string[] (required, e.g. ['anxiety', 'joint pain'])",
+    },
+    availableSymptoms: symptomData.map((e) => e.symptoms).flat().filter((v, i, a) => a.indexOf(v) === i),
+  });
+}
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();

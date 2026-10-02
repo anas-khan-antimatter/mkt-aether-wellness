@@ -1,5 +1,23 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export async function GET() {
+  return NextResponse.json({
+    endpoint: "/api/book",
+    method: "POST",
+    description: "Book a wellness appointment",
+    parameters: {
+      name: "string (required)",
+      email: "string (required)",
+      phone: "string (optional)",
+      service: "string (required)",
+      practitioner: "string (optional)",
+      date: "string (required, YYYY-MM-DD)",
+      time: "string (required, HH:MM)",
+      notes: "string (optional)",
+    },
+  });
+}
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
